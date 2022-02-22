@@ -4,9 +4,20 @@
 		<title>TREES</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
-		<script src="processing.js"></script>
+		<script src="processing.js">
+document.addEventListener("keydown", (e) => {
+    if (e.key == " ") {
+        document.body.style = "background-color: black";
+    }
+})
+document.addEventListener("keyup", (e) => {
+    if (e.key == " ") {
+        document.body.style = "background-color: white";
+    }
+})
+</script>
 	</head>
-	<body>
+	<body style = "color: orange;">
 		<header>
 			<h1>...two trees...</h1>
 		</header>
