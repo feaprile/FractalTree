@@ -2,11 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("keydown", (e) => {
     if (e.key == " ") {
         document.body.style = "background-color: black";
+        document.body.style = "color: white";
+        
     }
 })
 document.addEventListener("keyup", (e) => {
     if (e.key == " ") {
         document.body.style = "background-color: white";
+        document.body.style = "color: black";
     }
 })
 })
